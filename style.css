@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;background-image: url("C:/Users/praha/Downloads/—Pngtree—hexagonal abstract background with a_13478711.jpg");
+}
+ h1{
+    color: aliceblue;
+ }
+ form {
+    max-width: 400px;
+    margin: 20px auto;
+    background: #c5c4c4;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ }
+ label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+ }
+ p{
+   top: 0px;
+   margin-top: 0px;
+   color: #ff0000;
+ }
+ input[type="text"],
+ input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 2px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+ }
+ #cpass{
+   margin-bottom: 2px;
+ }
+
+ input[type="radio"],input[type="checkbox"]  {
+    margin-right: 5px;
+    cursor: pointer;
+ }
+ button[type="submit"],
+ button[type="reset"] {
+    padding: 10px 20px;
+    width:100%;
+    background-color: #439a46;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 5px;
+ }
+ button[type="submit"]:hover,
+ button[type="reset"]:hover {
+    background-color: #2c284d;
+ }
+ .error {
+    color: #ff0000;
+    margin-top: 5px;
+    font-size: 14px;
+ }
+ #sh{
+   position: relative;
+   top: -65px;
+   left: 360px;
+   padding: 0px 2px 10px;
+  /* background-color: #007bff; /* Button background color */
+   border: none;
+   color: white;
+   cursor: pointer;
+   border-radius: 5px;
+   cursor: pointer;
+   width: 5%;
+ }
+ #hs{
+   position: relative;
+   top: -163px;
+   left: 330px;
+   padding: 0px 2px 10px;
+  /* background-color: #007bff; /* Button background color */
+   border: none;
+   color: white;
+   cursor: pointer;
+   border-radius: 5px;
+   cursor: pointer;
+   width: 5%;
+ }
+ #cl{
+   border-color: #ff0000;
+   border-style:double;
+   
+ }
+
+
+ 
+ 
