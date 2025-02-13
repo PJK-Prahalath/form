@@ -5,7 +5,7 @@ function validate()
     var ro=document.getElementById("roll").value;
     var mail=document.getElementById("email").value;
     var ropat=/^\d{2}[A-Z]{3}\d{3}$/;
-    var epat=/^[a-z]+\d+@(?:gmail.com|gamil.net|gamil.in)$/
+    var epat=/^[a-z]+\d+@(?:gmail.com|gmail.net|gmail.in)$/
     var pas=document.getElementById("pass").value;
     var cpas=document.getElementById("cpass").value;
     if(name==null||name=="")
@@ -63,12 +63,12 @@ function myFunction()
     if (x.type === "password") 
     {
       x.type = "text";
-      s.src="C:/Users/praha/Downloads/icons8-eye-30.png";
+      s.src="icons/icons8-eye-30.png";
     } 
     else 
     {
-      x.type = "password";
-      s.src="C:/Users/praha/Downloads/icons8-closed-eye-30.png";
+        x.type = "password";
+        s.src="icons/icons8-closed-eye-30.png";
     }
 }
 function my()
@@ -78,12 +78,12 @@ function my()
     if(y.type==="password")
     {
         y.type="text";
-        s1.src="C:/Users/praha/Downloads/icons8-eye-30.png";
+        s1.src="icons/icons8-eye-30.png";
     }
     else
     {
         y.type="password";
-        s1.src="C:/Users/praha/Downloads/icons8-closed-eye-30.png";
+        s1.src="icons/icons8-closed-eye-30.png";
     }
 }
 
